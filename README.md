@@ -6,6 +6,12 @@
 
 ![Screenshot from 2023-09-25 10-33-45](https://github.com/C191068/Khatami_Opendaylight/assets/89090776/6f8331a7-c7fe-4378-bcc4-73e297a99bbf)
 
+-y: This option automatically confirms (yes) to any prompts or questions during the installation process. It's used to avoid manual confirmation.
+
+install: This is the subcommand that tells "apt-get" to install the specified software packages.
+
+unzip vim wget: These are the names of the software packages you want to install. In this case, you're installing the "unzip," "vim," and "wget" packages.
+
 Vim is a powerful text editor that is available on most Linux and Unix systems. It is known for its efficiency and flexibility, but it can also be difficult to learn at first.
 
 One of the most important things to understand about Vim is that it has two modes: command mode and insert mode. In command mode, you can use keyboard shortcuts to move around the document, delete text, and perform other operations. In insert mode, you can type text into the document.
