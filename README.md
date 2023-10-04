@@ -18,6 +18,8 @@ One of the most important things to understand about Vim is that it has two mode
 
 ![Screenshot from 2023-09-25 10-37-20](https://github.com/C191068/Khatami_Opendaylight/assets/89090776/fff7d87c-fbe0-4c4b-adbb-5a137004d31c)
 
+openjdk-8-jre: This is the name of the package you want to install. In this case, you're installing the OpenJDK 8 Java Runtime Environment, which is necessary for running Java applications.
+
 ![Screenshot from 2023-09-25 10-39-47](https://github.com/C191068/Khatami_Opendaylight/assets/89090776/a8d18b00-4e2e-4930-9992-fdc6119f07a8)
 
 ![Screenshot from 2023-09-25 11-08-04](https://github.com/C191068/Khatami_Opendaylight/assets/89090776/ecfa4cea-f839-4e10-bb74-682030b502b5)
