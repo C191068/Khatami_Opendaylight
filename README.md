@@ -6,6 +6,10 @@
 
 ![Screenshot from 2023-09-25 10-33-45](https://github.com/C191068/Khatami_Opendaylight/assets/89090776/6f8331a7-c7fe-4378-bcc4-73e297a99bbf)
 
+Vim is a powerful text editor that is available on most Linux and Unix systems. It is known for its efficiency and flexibility, but it can also be difficult to learn at first.
+
+One of the most important things to understand about Vim is that it has two modes: command mode and insert mode. In command mode, you can use keyboard shortcuts to move around the document, delete text, and perform other operations. In insert mode, you can type text into the document.
+
 ![Screenshot from 2023-09-25 10-37-20](https://github.com/C191068/Khatami_Opendaylight/assets/89090776/fff7d87c-fbe0-4c4b-adbb-5a137004d31c)
 
 ![Screenshot from 2023-09-25 10-39-47](https://github.com/C191068/Khatami_Opendaylight/assets/89090776/a8d18b00-4e2e-4930-9992-fdc6119f07a8)
