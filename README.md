@@ -43,6 +43,8 @@ wget is a command-line utility for downloading files from the internet. The name
 
 ![Screenshot from 2023-09-25 12-44-36](https://github.com/C191068/Khatami_Opendaylight/assets/89090776/2ede9eae-442d-4bfc-bda4-319e1a0bce61)
 
+
+wget is a command-line utility for downloading files from the internet. The name "wget" stands for "web get." It allows you to retrieve files from websites, FTP servers, and other online sources to your local computer. You can use wget by specifying the URL of the file you want to download, and it will fetch the file and save it to your local directory.
 ![Screenshot from 2023-09-25 13-01-05](https://github.com/C191068/Khatami_Opendaylight/assets/89090776/e4f8bc6c-512b-4b16-860a-009ce3e589ff)
 
 ![Screenshot from 2023-09-25 14-06-37](https://github.com/C191068/Khatami_Opendaylight/assets/89090776/c506549b-fda5-4d1b-b49c-8c5ecbb9d576)
