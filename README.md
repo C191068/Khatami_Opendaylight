@@ -22,6 +22,10 @@ openjdk-8-jre: This is the name of the package you want to install. In this case
 
 ![Screenshot from 2023-09-25 10-39-47](https://github.com/C191068/Khatami_Opendaylight/assets/89090776/a8d18b00-4e2e-4930-9992-fdc6119f07a8)
 
+update-alternatives: This is a Debian-specific command for managing symbolic links used to choose default system-wide software versions. In this case, you're using it to manage the Java executable.
+
+--config java: This part of the command specifies that you want to configure the "java" alternative. It means you're dealing with the Java runtime environment.
+
 ![Screenshot from 2023-09-25 11-08-04](https://github.com/C191068/Khatami_Opendaylight/assets/89090776/ecfa4cea-f839-4e10-bb74-682030b502b5)
 
 ![Screenshot from 2023-09-25 11-08-59](https://github.com/C191068/Khatami_Opendaylight/assets/89090776/872570a0-7305-419e-8829-a2ee30aee83e)
