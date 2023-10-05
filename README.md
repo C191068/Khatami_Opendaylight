@@ -28,6 +28,12 @@ update-alternatives: This is a Debian-specific command for managing symbolic lin
 
 ![Screenshot from 2023-09-25 11-08-04](https://github.com/C191068/Khatami_Opendaylight/assets/89090776/ecfa4cea-f839-4e10-bb74-682030b502b5)
 
+JAVA_HOME" is an environment variable used to specify the location of the Java Development Kit (JDK) or Java Runtime Environment (JRE) on your computer. It's often used by various Java applications and development tools to know where Java is installed. When you set the "JAVA_HOME" variable, you're telling your system where to find Java.
+
+.bashrc is a configuration file for the Bash shell, which is the default command-line shell in many Unix-like operating systems, including Linux. The file is typically located in your home directory and is executed every time you open a new terminal session. It allows you to customize the behavior of your shell environment by defining variables, setting paths, and running scripts.
+
+In the context of the command you provided, you are adding a line to your .bashrc file that sets the "JAVA_HOME" environment variable. This can be useful because many Java-related applications and development environments rely on this variable to find the Java installation and execute Java code properly. By setting "JAVA_HOME" in your .bashrc, you ensure that it's available whenever you open a new terminal session, making it easier to work with Java-related tools and applications.
+
 ![Screenshot from 2023-09-25 11-08-59](https://github.com/C191068/Khatami_Opendaylight/assets/89090776/872570a0-7305-419e-8829-a2ee30aee83e)
 
 ![Screenshot from 2023-09-25 11-22-31](https://github.com/C191068/Khatami_Opendaylight/assets/89090776/02a039a5-1bfe-4d14-a1e4-19cd5fa988bf)
