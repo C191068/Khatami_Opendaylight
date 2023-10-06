@@ -156,6 +156,38 @@ So, when you run "sudo apt-get update," you are telling the system to refresh it
 
 
 
+Here are some possible reasons why OpenDaylight is not running at http://127.0.0.1:8181/index.html after you stopped ONOS:
+
+Port conflict: ONOS may be still using port 8181. Check the ONOS logs to see if it is still running. If it is, stop ONOS and then try to start OpenDaylight again.
+Permissions issue: The OpenDaylight user may not have permission to access port 8181. Try running the OpenDaylight startup script as root.
+OpenDaylight is not running: Make sure that the OpenDaylight process is running. You can check this by running the following command:
+ps aux | grep opendaylight
+If you see the OpenDaylight process in the output, then it is running. If you do not see the OpenDaylight process, then try starting it again.
+
+OpenDaylight is not configured: Make sure that OpenDaylight is configured to listen on port 8181. You can check the OpenDaylight configuration file (opendaylight-configuration.xml) to verify this.
+Here are some steps you can try to troubleshoot the issue:
+
+Stop ONOS: Make sure that ONOS is stopped. You can check this by running the following command:
+ps aux | grep onos
+If you see the ONOS process in the output, then stop it using the ONOS stop script.
+
+Check port 8181: Use the following command to check if port 8181 is in use:
+netstat -ano | grep 8181
+If the output shows that port 8181 is in use by another process, stop that process.
+
+Start OpenDaylight: Start OpenDaylight using the startup script. If you are running the OpenDaylight delux distribution, you can use the following command to start it:
+./opendaylight.sh start
+Check the OpenDaylight logs: If OpenDaylight is still not running, check the OpenDaylight logs for any errors. The OpenDaylight logs can be found in the following directory:
+/var/log/opendaylight
+Restart OpenDaylight: If you are still unable to start OpenDaylight, try restarting your server.
+If you are still having trouble starting OpenDaylight, please post a question on the OpenDaylight community forum.
+
+
+
+
+
+
+
 
 
 
